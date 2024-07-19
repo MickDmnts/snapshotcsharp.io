@@ -2,21 +2,21 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Class Inventory </title>
+      <title>Class Inventory | Snapshot </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Class Inventory ">
+      <meta name="title" content="Class Inventory | Snapshot ">
       
       
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
-      <meta name="docfx:navrel" content="">
+      <meta name="docfx:navrel" content="../toc.html">
       <meta name="docfx:tocrel" content="toc.html">
       
+      <meta name="docfx:rel" content="../">
       
       
-      
-      
+      <meta name="docfx:docurl" content="https://github.com/MickDmnts/CMN6302_2024_SAE_Athens_Major/new/mad/apiSpec/new?filename=ProposedArchitecture_Inventory.md&amp;value=---%0Auid%3A%20ProposedArchitecture.Inventory%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -44,14 +44,18 @@
       <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
         <div class="container-xxl flex-nowrap">
           <a class="navbar-brand" href="../index.html">
-            <img id="logo" class="svg" src="../logo.svg" alt="">
-            
+            <img id="logo" class="svg" src="../logo.svg" alt="Snapshot">
+            Snapshot
           </a>
           <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
             <i class="bi bi-three-dots"></i>
           </button>
           <div class="collapse navbar-collapse" id="navpanel">
             <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
             </div>
           </div>
         </div>
@@ -85,7 +89,7 @@
 
 
   <h1 id="ProposedArchitecture_Inventory" data-uid="ProposedArchitecture.Inventory" class="text-break">
-Class Inventory  
+Class Inventory  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/CMN6302_2024_SAE_Athens_Major/blob/mad/code/unityProject/development/SnapshotDevelopment/Snapshot/Runtime/Source/Mad/ProposedUsage/Snapshots/Inventory.cs/#L7"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -511,110 +515,6 @@ Class Inventory
 
 
 
-  <h2 class="section" id="fields">Fields
-</h2>
-
-
-
-  <h3 id="ProposedArchitecture_Inventory__MaxItems" data-uid="ProposedArchitecture.Inventory._MaxItems">
-  _MaxItems
-  
-  </h3>
-
-  <div class="markdown level1 summary"><p>Max items the inventory can hold</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[SerializeField]
-[Tooltip(&quot;Max items the inventory can hold&quot;)]
-private int _MaxItems</code></pre>
-  </div>
-
-
-
-
-  <h4 class="section">Field Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-
-
-  <h3 id="ProposedArchitecture_Inventory__Smri" data-uid="ProposedArchitecture.Inventory._Smri">
-  _Smri
-  
-  </h3>
-
-  <div class="markdown level1 summary"><p>This ISnapshots SMRI</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Header(&quot;Set Dynamically&quot;)]
-[SerializeField]
-[Tooltip(&quot;This ISnapshots SMRI&quot;)]
-private uint _Smri</code></pre>
-  </div>
-
-
-
-
-  <h4 class="section">Field Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-
-
-  <h3 id="ProposedArchitecture_Inventory__Weapons" data-uid="ProposedArchitecture.Inventory._Weapons">
-  _Weapons
-  
-  </h3>
-
-  <div class="markdown level1 summary"><p>Inventory weapons</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[SerializeField]
-[Tooltip(&quot;Inventory weapons&quot;)]
-private List&lt;Weapon&gt; _Weapons</code></pre>
-  </div>
-
-
-
-
-  <h4 class="section">Field Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="ProposedArchitecture.Weapon.html">Weapon</a>&gt;</dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-
   <h2 class="section" id="properties">Properties
 </h2>
 
@@ -623,7 +523,7 @@ private List&lt;Weapon&gt; _Weapons</code></pre>
 
   <h3 id="ProposedArchitecture_Inventory_Smri" data-uid="ProposedArchitecture.Inventory.Smri">
   Smri
-  
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/CMN6302_2024_SAE_Athens_Major/blob/mad/code/unityProject/development/SnapshotDevelopment/Snapshot/Runtime/Source/Mad/ProposedUsage/Snapshots/Inventory.cs/#L18"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Returns this ISnapshots SMRI</p>
@@ -659,7 +559,7 @@ private List&lt;Weapon&gt; _Weapons</code></pre>
 
   <h3 id="ProposedArchitecture_Inventory_AddWeapon_ProposedArchitecture_Weapon_" data-uid="ProposedArchitecture.Inventory.AddWeapon(ProposedArchitecture.Weapon)">
   AddWeapon(Weapon)
-  
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/CMN6302_2024_SAE_Athens_Major/blob/mad/code/unityProject/development/SnapshotDevelopment/Snapshot/Runtime/Source/Mad/ProposedUsage/Snapshots/Inventory.cs/#L32"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Adds the passed weapon in the inventory</p>
@@ -692,7 +592,7 @@ private List&lt;Weapon&gt; _Weapons</code></pre>
 
   <h3 id="ProposedArchitecture_Inventory_CacheModel" data-uid="ProposedArchitecture.Inventory.CacheModel">
   CacheModel()
-  
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/CMN6302_2024_SAE_Athens_Major/blob/mad/code/unityProject/development/SnapshotDevelopment/Snapshot/Runtime/Source/Mad/ProposedUsage/Snapshots/Inventory.cs/#L42"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Dynamically called when its time to save</p>
@@ -719,7 +619,7 @@ private List&lt;Weapon&gt; _Weapons</code></pre>
 
   <h3 id="ProposedArchitecture_Inventory_ConstructModel" data-uid="ProposedArchitecture.Inventory.ConstructModel">
   ConstructModel()
-  
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/CMN6302_2024_SAE_Athens_Major/blob/mad/code/unityProject/development/SnapshotDevelopment/Snapshot/Runtime/Source/Mad/ProposedUsage/Snapshots/Inventory.cs/#L49"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Returns an ISnapshotModel with the inventory needed data.</p>
@@ -751,7 +651,7 @@ private List&lt;Weapon&gt; _Weapons</code></pre>
 
   <h3 id="ProposedArchitecture_Inventory_GetSnapshotModelType" data-uid="ProposedArchitecture.Inventory.GetSnapshotModelType">
   GetSnapshotModelType()
-  
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/CMN6302_2024_SAE_Athens_Major/blob/mad/code/unityProject/development/SnapshotDevelopment/Snapshot/Runtime/Source/Mad/ProposedUsage/Snapshots/Inventory.cs/#L100"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Returns the type of the ISnapshotModel this ISnapshot's data get represented.</p>
@@ -783,7 +683,7 @@ private List&lt;Weapon&gt; _Weapons</code></pre>
 
   <h3 id="ProposedArchitecture_Inventory_LoadModel_ProposedArchitecture_ISnapshotModel_" data-uid="ProposedArchitecture.Inventory.LoadModel(ProposedArchitecture.ISnapshotModel)">
   LoadModel(ISnapshotModel)
-  
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/CMN6302_2024_SAE_Athens_Major/blob/mad/code/unityProject/development/SnapshotDevelopment/Snapshot/Runtime/Source/Mad/ProposedUsage/Snapshots/Inventory.cs/#L80"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Sets the playe fields from the incoming deserialized model</p>
@@ -812,38 +712,11 @@ private List&lt;Weapon&gt; _Weapons</code></pre>
 
 
 
-  <a id="ProposedArchitecture_Inventory_OnDestroy_" data-uid="ProposedArchitecture.Inventory.OnDestroy*"></a>
-
-  <h3 id="ProposedArchitecture_Inventory_OnDestroy" data-uid="ProposedArchitecture.Inventory.OnDestroy">
-  OnDestroy()
-  
-  </h3>
-
-  <div class="markdown level1 summary"><p>The ISnapshot should get unregistered if it gets destroyed</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">private void OnDestroy()</code></pre>
-  </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
   <a id="ProposedArchitecture_Inventory_RegisterToSaveManager_" data-uid="ProposedArchitecture.Inventory.RegisterToSaveManager*"></a>
 
   <h3 id="ProposedArchitecture_Inventory_RegisterToSaveManager" data-uid="ProposedArchitecture.Inventory.RegisterToSaveManager">
   RegisterToSaveManager()
-  
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/CMN6302_2024_SAE_Athens_Major/blob/mad/code/unityProject/development/SnapshotDevelopment/Snapshot/Runtime/Source/Mad/ProposedUsage/Snapshots/Inventory.cs/#L37"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Register the inventory to the save manager and set its SMRI</p>
@@ -870,7 +743,7 @@ private List&lt;Weapon&gt; _Weapons</code></pre>
 
   <h3 id="ProposedArchitecture_Inventory_RetrieveReferences_System_Int32___" data-uid="ProposedArchitecture.Inventory.RetrieveReferences(System.Int32[])">
   RetrieveReferences(int[])
-  
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/CMN6302_2024_SAE_Athens_Major/blob/mad/code/unityProject/development/SnapshotDevelopment/Snapshot/Runtime/Source/Mad/ProposedUsage/Snapshots/Inventory.cs/#L90"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Sets any reference the inventory may have, like its weapons.</p>
@@ -898,37 +771,11 @@ private List&lt;Weapon&gt; _Weapons</code></pre>
 
 
 
-  <a id="ProposedArchitecture_Inventory_Start_" data-uid="ProposedArchitecture.Inventory.Start*"></a>
-
-  <h3 id="ProposedArchitecture_Inventory_Start" data-uid="ProposedArchitecture.Inventory.Start">
-  Start()
-  
-  </h3>
-
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">private void Start()</code></pre>
-  </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
   <a id="ProposedArchitecture_Inventory_UnregisterToSaveManager_" data-uid="ProposedArchitecture.Inventory.UnregisterToSaveManager*"></a>
 
   <h3 id="ProposedArchitecture_Inventory_UnregisterToSaveManager" data-uid="ProposedArchitecture.Inventory.UnregisterToSaveManager">
   UnregisterToSaveManager()
-  
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/CMN6302_2024_SAE_Athens_Major/blob/mad/code/unityProject/development/SnapshotDevelopment/Snapshot/Runtime/Source/Mad/ProposedUsage/Snapshots/Inventory.cs/#L72"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Unregisters the reference from the save manager</p>
@@ -955,6 +802,7 @@ private List&lt;Weapon&gt; _Weapons</code></pre>
 </article>
 
         <div class="contribution d-print-none">
+          <a href="https://github.com/MickDmnts/CMN6302_2024_SAE_Athens_Major/blob/mad/code/unityProject/development/SnapshotDevelopment/Snapshot/Runtime/Source/Mad/ProposedUsage/Snapshots/Inventory.cs/#L7" class="edit-link">Edit this page</a>
         </div>
 
 
@@ -965,6 +813,7 @@ private List&lt;Weapon&gt; _Weapons</code></pre>
       </div>
     </main>
 
+    <div class="container-xxl search-results" id="search-results"></div>
 
     <footer class="border-top text-secondary">
       <div class="container-xxl">

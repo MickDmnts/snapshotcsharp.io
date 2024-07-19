@@ -2,21 +2,21 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Class SaveManager </title>
+      <title>Class SaveManager | Snapshot </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Class SaveManager ">
+      <meta name="title" content="Class SaveManager | Snapshot ">
       
       <meta name="description" content="Responsible for handling the SnapshotWrapper, ISnapshot and ISnapshotModel instances. Hands out SMRIs.">
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
-      <meta name="docfx:navrel" content="">
+      <meta name="docfx:navrel" content="../toc.html">
       <meta name="docfx:tocrel" content="toc.html">
       
+      <meta name="docfx:rel" content="../">
       
       
-      
-      
+      <meta name="docfx:docurl" content="https://github.com/MickDmnts/CMN6302_2024_SAE_Athens_Major/new/mad/apiSpec/new?filename=ProposedArchitecture_SaveManager.md&amp;value=---%0Auid%3A%20ProposedArchitecture.SaveManager%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -44,14 +44,18 @@
       <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
         <div class="container-xxl flex-nowrap">
           <a class="navbar-brand" href="../index.html">
-            <img id="logo" class="svg" src="../logo.svg" alt="">
-            
+            <img id="logo" class="svg" src="../logo.svg" alt="Snapshot">
+            Snapshot
           </a>
           <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
             <i class="bi bi-three-dots"></i>
           </button>
           <div class="collapse navbar-collapse" id="navpanel">
             <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
             </div>
           </div>
         </div>
@@ -85,7 +89,7 @@
 
 
   <h1 id="ProposedArchitecture_SaveManager" data-uid="ProposedArchitecture.SaveManager" class="text-break">
-Class SaveManager  
+Class SaveManager  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/CMN6302_2024_SAE_Athens_Major/blob/mad/code/unityProject/development/SnapshotDevelopment/Snapshot/Runtime/Source/Mad/ProposedUsage/SaveManager/SaveManager.cs/#L12"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -154,7 +158,7 @@ Hands out SMRIs.</p>
 
   <h3 id="ProposedArchitecture_SaveManager__ctor_ProposedArchitecture_Common_" data-uid="ProposedArchitecture.SaveManager.#ctor(ProposedArchitecture.Common)">
   SaveManager(Common)
-  
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/CMN6302_2024_SAE_Athens_Major/blob/mad/code/unityProject/development/SnapshotDevelopment/Snapshot/Runtime/Source/Mad/ProposedUsage/SaveManager/SaveManager.cs/#L34"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Creates a SaveManager instance</p>
@@ -183,103 +187,6 @@ Hands out SMRIs.</p>
 
 
 
-  <h2 class="section" id="fields">Fields
-</h2>
-
-
-
-  <h3 id="ProposedArchitecture_SaveManager__Common" data-uid="ProposedArchitecture.SaveManager._Common">
-  _Common
-  
-  </h3>
-
-  <div class="markdown level1 summary"><p>Reference to the Common instance</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">private Common _Common</code></pre>
-  </div>
-
-
-
-
-  <h4 class="section">Field Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="ProposedArchitecture.Common.html">Common</a></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-
-
-  <h3 id="ProposedArchitecture_SaveManager__Models" data-uid="ProposedArchitecture.SaveManager._Models">
-  _Models
-  
-  </h3>
-
-  <div class="markdown level1 summary"><p>Caches the ISnapshotModel references of the ISnapshots</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">private List&lt;ISnapshotModel&gt; _Models</code></pre>
-  </div>
-
-
-
-
-  <h4 class="section">Field Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="ProposedArchitecture.ISnapshotModel.html">ISnapshotModel</a>&gt;</dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-
-
-  <h3 id="ProposedArchitecture_SaveManager__Snapshots" data-uid="ProposedArchitecture.SaveManager._Snapshots">
-  _Snapshots
-  
-  </h3>
-
-  <div class="markdown level1 summary"><p>Caches the ISnapshot references of the game</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">private List&lt;ISnapshot&gt; _Snapshots</code></pre>
-  </div>
-
-
-
-
-  <h4 class="section">Field Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="ProposedArchitecture.ISnapshot.html">ISnapshot</a>&gt;</dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-
   <h2 class="section" id="properties">Properties
 </h2>
 
@@ -288,7 +195,7 @@ Hands out SMRIs.</p>
 
   <h3 id="ProposedArchitecture_SaveManager_Snapshots" data-uid="ProposedArchitecture.SaveManager.Snapshots">
   Snapshots
-  
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/CMN6302_2024_SAE_Athens_Major/blob/mad/code/unityProject/development/SnapshotDevelopment/Snapshot/Runtime/Source/Mad/ProposedUsage/SaveManager/SaveManager.cs/#L21"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Returns a read only collection of the Snapshot reference cache.</p>
@@ -324,7 +231,7 @@ Hands out SMRIs.</p>
 
   <h3 id="ProposedArchitecture_SaveManager_CacheModel_ProposedArchitecture_ISnapshotModel_" data-uid="ProposedArchitecture.SaveManager.CacheModel(ProposedArchitecture.ISnapshotModel)">
   CacheModel(ISnapshotModel)
-  
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/CMN6302_2024_SAE_Athens_Major/blob/mad/code/unityProject/development/SnapshotDevelopment/Snapshot/Runtime/Source/Mad/ProposedUsage/SaveManager/SaveManager.cs/#L100"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Stores the passed model to the SaveManager data container list.</p>
@@ -357,7 +264,7 @@ Hands out SMRIs.</p>
 
   <h3 id="ProposedArchitecture_SaveManager_Cleanup" data-uid="ProposedArchitecture.SaveManager.Cleanup">
   Cleanup()
-  
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/CMN6302_2024_SAE_Athens_Major/blob/mad/code/unityProject/development/SnapshotDevelopment/Snapshot/Runtime/Source/Mad/ProposedUsage/SaveManager/SaveManager.cs/#L131"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Resets the dll library caches and SMRI.</p>
@@ -389,7 +296,7 @@ Hands out SMRIs.</p>
 
   <h3 id="ProposedArchitecture_SaveManager_LoadSaveFile_System_String_" data-uid="ProposedArchitecture.SaveManager.LoadSaveFile(System.String)">
   LoadSaveFile(string)
-  
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/CMN6302_2024_SAE_Athens_Major/blob/mad/code/unityProject/development/SnapshotDevelopment/Snapshot/Runtime/Source/Mad/ProposedUsage/SaveManager/SaveManager.cs/#L110"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Kicks off the Unpacking mechanism contained in the passed fileName.
@@ -419,38 +326,11 @@ Each cached ISnapshot.LoadModel and ISnapshot.RetrieveReferences method gets cal
 
 
 
-  <a id="ProposedArchitecture_SaveManager_RaiseOnSnapshotStart_" data-uid="ProposedArchitecture.SaveManager.RaiseOnSnapshotStart*"></a>
-
-  <h3 id="ProposedArchitecture_SaveManager_RaiseOnSnapshotStart" data-uid="ProposedArchitecture.SaveManager.RaiseOnSnapshotStart">
-  RaiseOnSnapshotStart()
-  
-  </h3>
-
-  <div class="markdown level1 summary"><p>Raises the OnSnapshotStart event</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">private void RaiseOnSnapshotStart()</code></pre>
-  </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
   <a id="ProposedArchitecture_SaveManager_RegisterModel_" data-uid="ProposedArchitecture.SaveManager.RegisterModel*"></a>
 
   <h3 id="ProposedArchitecture_SaveManager_RegisterModel_ProposedArchitecture_ISnapshot_" data-uid="ProposedArchitecture.SaveManager.RegisterModel(ProposedArchitecture.ISnapshot)">
   RegisterModel(ISnapshot)
-  
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/CMN6302_2024_SAE_Athens_Major/blob/mad/code/unityProject/development/SnapshotDevelopment/Snapshot/Runtime/Source/Mad/ProposedUsage/SaveManager/SaveManager.cs/#L66"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Registers the passed ISnapshot instance to the serialization event handler and adds it to the ISnapshot reference list.</p>
@@ -485,44 +365,11 @@ Each cached ISnapshot.LoadModel and ISnapshot.RetrieveReferences method gets cal
 
 
 
-  <a id="ProposedArchitecture_SaveManager_RegisterToSnapshot_" data-uid="ProposedArchitecture.SaveManager.RegisterToSnapshot*"></a>
-
-  <h3 id="ProposedArchitecture_SaveManager_RegisterToSnapshot_ProposedArchitecture_ISnapshot_" data-uid="ProposedArchitecture.SaveManager.RegisterToSnapshot(ProposedArchitecture.ISnapshot)">
-  RegisterToSnapshot(ISnapshot)
-  
-  </h3>
-
-  <div class="markdown level1 summary"><p>Registers the passed ISnapshot for data caching upon packing.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">private void RegisterToSnapshot(ISnapshot _snapshot)</code></pre>
-  </div>
-
-  <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>_snapshot</code> <a class="xref" href="ProposedArchitecture.ISnapshot.html">ISnapshot</a></dt>
-    <dd><p>The snapshot instance</p>
-</dd>
-  </dl>
-
-
-
-
-
-
-
-
-
-
-
-
   <a id="ProposedArchitecture_SaveManager_Save_" data-uid="ProposedArchitecture.SaveManager.Save*"></a>
 
   <h3 id="ProposedArchitecture_SaveManager_Save" data-uid="ProposedArchitecture.SaveManager.Save">
   Save()
-  
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/CMN6302_2024_SAE_Athens_Major/blob/mad/code/unityProject/development/SnapshotDevelopment/Snapshot/Runtime/Source/Mad/ProposedUsage/SaveManager/SaveManager.cs/#L78"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Kicks off the packing sequence. All the cached ISnapshot.CacheData methods get called and
@@ -551,7 +398,7 @@ The cached SaveManager models list gets cleared afterwards.</p>
 
   <h3 id="ProposedArchitecture_SaveManager_UnregisterFromSnapshot_ProposedArchitecture_ISnapshot_" data-uid="ProposedArchitecture.SaveManager.UnregisterFromSnapshot(ProposedArchitecture.ISnapshot)">
   UnregisterFromSnapshot(ISnapshot)
-  
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/CMN6302_2024_SAE_Athens_Major/blob/mad/code/unityProject/development/SnapshotDevelopment/Snapshot/Runtime/Source/Mad/ProposedUsage/SaveManager/SaveManager.cs/#L56"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Unregisters the passed ISnapshot from data caching upon packing.
@@ -580,45 +427,11 @@ The passed snapshot is also removed from the Snapshot list.</p>
 
 
 
-  <h2 class="section" id="events">Events
-</h2>
-
-
-
-  <h3 id="ProposedArchitecture_SaveManager_OnSnapshotStart" data-uid="ProposedArchitecture.SaveManager.OnSnapshotStart">
-  OnSnapshotStart
-  
-  </h3>
-
-  <div class="markdown level1 summary"><p>Register to this event to get notified before the packing sequence starts.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">private event Action OnSnapshotStart</code></pre>
-  </div>
-
-
-
-
-
-
-  <h4 class="section">Event Type</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action">Action</a></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
 
 </article>
 
         <div class="contribution d-print-none">
+          <a href="https://github.com/MickDmnts/CMN6302_2024_SAE_Athens_Major/blob/mad/code/unityProject/development/SnapshotDevelopment/Snapshot/Runtime/Source/Mad/ProposedUsage/SaveManager/SaveManager.cs/#L12" class="edit-link">Edit this page</a>
         </div>
 
 
@@ -629,6 +442,7 @@ The passed snapshot is also removed from the Snapshot list.</p>
       </div>
     </main>
 
+    <div class="container-xxl search-results" id="search-results"></div>
 
     <footer class="border-top text-secondary">
       <div class="container-xxl">

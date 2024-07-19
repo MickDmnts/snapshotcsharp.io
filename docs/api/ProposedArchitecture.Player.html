@@ -2,21 +2,21 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Class Player </title>
+      <title>Class Player | Snapshot </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Class Player ">
+      <meta name="title" content="Class Player | Snapshot ">
       
       
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
-      <meta name="docfx:navrel" content="">
+      <meta name="docfx:navrel" content="../toc.html">
       <meta name="docfx:tocrel" content="toc.html">
       
+      <meta name="docfx:rel" content="../">
       
       
-      
-      
+      <meta name="docfx:docurl" content="https://github.com/MickDmnts/CMN6302_2024_SAE_Athens_Major/new/mad/apiSpec/new?filename=ProposedArchitecture_Player.md&amp;value=---%0Auid%3A%20ProposedArchitecture.Player%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -44,14 +44,18 @@
       <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
         <div class="container-xxl flex-nowrap">
           <a class="navbar-brand" href="../index.html">
-            <img id="logo" class="svg" src="../logo.svg" alt="">
-            
+            <img id="logo" class="svg" src="../logo.svg" alt="Snapshot">
+            Snapshot
           </a>
           <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
             <i class="bi bi-three-dots"></i>
           </button>
           <div class="collapse navbar-collapse" id="navpanel">
             <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
             </div>
           </div>
         </div>
@@ -85,7 +89,7 @@
 
 
   <h1 id="ProposedArchitecture_Player" data-uid="ProposedArchitecture.Player" class="text-break">
-Class Player  
+Class Player  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/CMN6302_2024_SAE_Athens_Major/blob/mad/code/unityProject/development/SnapshotDevelopment/Snapshot/Runtime/Source/Mad/ProposedUsage/Snapshots/Player.cs/#L6"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -511,207 +515,6 @@ Class Player
 
 
 
-  <h2 class="section" id="fields">Fields
-</h2>
-
-
-
-  <h3 id="ProposedArchitecture_Player__Health" data-uid="ProposedArchitecture.Player._Health">
-  _Health
-  
-  </h3>
-
-  <div class="markdown level1 summary"><p>Player health</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[SerializeField]
-[Tooltip(&quot;Player health&quot;)]
-private float _Health</code></pre>
-  </div>
-
-
-
-
-  <h4 class="section">Field Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-
-
-  <h3 id="ProposedArchitecture_Player__Inventory" data-uid="ProposedArchitecture.Player._Inventory">
-  _Inventory
-  
-  </h3>
-
-  <div class="markdown level1 summary"><p>Reference to the Player Inventory</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">private Inventory _Inventory</code></pre>
-  </div>
-
-
-
-
-  <h4 class="section">Field Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="ProposedArchitecture.Inventory.html">Inventory</a></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-
-
-  <h3 id="ProposedArchitecture_Player__IsAlive" data-uid="ProposedArchitecture.Player._IsAlive">
-  _IsAlive
-  
-  </h3>
-
-  <div class="markdown level1 summary"><p>Is the player alive?</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[SerializeField]
-[Tooltip(&quot;Is the player alive?&quot;)]
-private bool _IsAlive</code></pre>
-  </div>
-
-
-
-
-  <h4 class="section">Field Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-
-
-  <h3 id="ProposedArchitecture_Player__Shield" data-uid="ProposedArchitecture.Player._Shield">
-  _Shield
-  
-  </h3>
-
-  <div class="markdown level1 summary"><p>Player shield value</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[SerializeField]
-[Tooltip(&quot;Player shield value&quot;)]
-private float _Shield</code></pre>
-  </div>
-
-
-
-
-  <h4 class="section">Field Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-
-
-  <h3 id="ProposedArchitecture_Player__Smri" data-uid="ProposedArchitecture.Player._Smri">
-  _Smri
-  
-  </h3>
-
-  <div class="markdown level1 summary"><p>This ISnapshots SMRI</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Header(&quot;Set Dynamically&quot;)]
-[SerializeField]
-[Tooltip(&quot;This ISnapshots SMRI&quot;)]
-private uint _Smri</code></pre>
-  </div>
-
-
-
-
-  <h4 class="section">Field Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-
-
-  <h3 id="ProposedArchitecture_Player__Stamina" data-uid="ProposedArchitecture.Player._Stamina">
-  _Stamina
-  
-  </h3>
-
-  <div class="markdown level1 summary"><p>Player stamina</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[SerializeField]
-[Tooltip(&quot;Player stamina&quot;)]
-private float _Stamina</code></pre>
-  </div>
-
-
-
-
-  <h4 class="section">Field Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-
   <h2 class="section" id="properties">Properties
 </h2>
 
@@ -720,7 +523,7 @@ private float _Stamina</code></pre>
 
   <h3 id="ProposedArchitecture_Player_Smri" data-uid="ProposedArchitecture.Player.Smri">
   Smri
-  
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/CMN6302_2024_SAE_Athens_Major/blob/mad/code/unityProject/development/SnapshotDevelopment/Snapshot/Runtime/Source/Mad/ProposedUsage/Snapshots/Player.cs/#L24"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Returns this ISnapshots SMRI</p>
@@ -756,7 +559,7 @@ private float _Stamina</code></pre>
 
   <h3 id="ProposedArchitecture_Player_CacheModel" data-uid="ProposedArchitecture.Player.CacheModel">
   CacheModel()
-  
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/CMN6302_2024_SAE_Athens_Major/blob/mad/code/unityProject/development/SnapshotDevelopment/Snapshot/Runtime/Source/Mad/ProposedUsage/Snapshots/Player.cs/#L45"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Dynamically called when its time to save</p>
@@ -783,7 +586,7 @@ private float _Stamina</code></pre>
 
   <h3 id="ProposedArchitecture_Player_ConstructModel" data-uid="ProposedArchitecture.Player.ConstructModel">
   ConstructModel()
-  
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/CMN6302_2024_SAE_Athens_Major/blob/mad/code/unityProject/development/SnapshotDevelopment/Snapshot/Runtime/Source/Mad/ProposedUsage/Snapshots/Player.cs/#L52"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Returns an ISnapshotModel with the player needed data.</p>
@@ -815,7 +618,7 @@ private float _Stamina</code></pre>
 
   <h3 id="ProposedArchitecture_Player_GetSnapshotModelType" data-uid="ProposedArchitecture.Player.GetSnapshotModelType">
   GetSnapshotModelType()
-  
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/CMN6302_2024_SAE_Athens_Major/blob/mad/code/unityProject/development/SnapshotDevelopment/Snapshot/Runtime/Source/Mad/ProposedUsage/Snapshots/Player.cs/#L107"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Returns the type of the ISnapshotModel this ISnapshot's data get represented.</p>
@@ -847,7 +650,7 @@ private float _Stamina</code></pre>
 
   <h3 id="ProposedArchitecture_Player_LoadModel_ProposedArchitecture_ISnapshotModel_" data-uid="ProposedArchitecture.Player.LoadModel(ProposedArchitecture.ISnapshotModel)">
   LoadModel(ISnapshotModel)
-  
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/CMN6302_2024_SAE_Athens_Major/blob/mad/code/unityProject/development/SnapshotDevelopment/Snapshot/Runtime/Source/Mad/ProposedUsage/Snapshots/Player.cs/#L84"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Sets the player fields from the incoming deserialized model</p>
@@ -876,38 +679,11 @@ private float _Stamina</code></pre>
 
 
 
-  <a id="ProposedArchitecture_Player_OnDestroy_" data-uid="ProposedArchitecture.Player.OnDestroy*"></a>
-
-  <h3 id="ProposedArchitecture_Player_OnDestroy" data-uid="ProposedArchitecture.Player.OnDestroy">
-  OnDestroy()
-  
-  </h3>
-
-  <div class="markdown level1 summary"><p>The ISnapshot should get unregistered if it gets destroyed</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">private void OnDestroy()</code></pre>
-  </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
   <a id="ProposedArchitecture_Player_RegisterToSaveManager_" data-uid="ProposedArchitecture.Player.RegisterToSaveManager*"></a>
 
   <h3 id="ProposedArchitecture_Player_RegisterToSaveManager" data-uid="ProposedArchitecture.Player.RegisterToSaveManager">
   RegisterToSaveManager()
-  
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/CMN6302_2024_SAE_Athens_Major/blob/mad/code/unityProject/development/SnapshotDevelopment/Snapshot/Runtime/Source/Mad/ProposedUsage/Snapshots/Player.cs/#L40"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Register the player to the save manager and set its SMRI</p>
@@ -934,7 +710,7 @@ private float _Stamina</code></pre>
 
   <h3 id="ProposedArchitecture_Player_RetrieveReferences_System_Int32___" data-uid="ProposedArchitecture.Player.RetrieveReferences(System.Int32[])">
   RetrieveReferences(int[])
-  
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/CMN6302_2024_SAE_Athens_Major/blob/mad/code/unityProject/development/SnapshotDevelopment/Snapshot/Runtime/Source/Mad/ProposedUsage/Snapshots/Player.cs/#L98"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Sets any reference the player may have, like its inventory.</p>
@@ -962,37 +738,11 @@ private float _Stamina</code></pre>
 
 
 
-  <a id="ProposedArchitecture_Player_Start_" data-uid="ProposedArchitecture.Player.Start*"></a>
-
-  <h3 id="ProposedArchitecture_Player_Start" data-uid="ProposedArchitecture.Player.Start">
-  Start()
-  
-  </h3>
-
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">private void Start()</code></pre>
-  </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
   <a id="ProposedArchitecture_Player_UnregisterToSaveManager_" data-uid="ProposedArchitecture.Player.UnregisterToSaveManager*"></a>
 
   <h3 id="ProposedArchitecture_Player_UnregisterToSaveManager" data-uid="ProposedArchitecture.Player.UnregisterToSaveManager">
   UnregisterToSaveManager()
-  
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/CMN6302_2024_SAE_Athens_Major/blob/mad/code/unityProject/development/SnapshotDevelopment/Snapshot/Runtime/Source/Mad/ProposedUsage/Snapshots/Player.cs/#L76"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Unregisters the reference from the save manager</p>
@@ -1019,6 +769,7 @@ private float _Stamina</code></pre>
 </article>
 
         <div class="contribution d-print-none">
+          <a href="https://github.com/MickDmnts/CMN6302_2024_SAE_Athens_Major/blob/mad/code/unityProject/development/SnapshotDevelopment/Snapshot/Runtime/Source/Mad/ProposedUsage/Snapshots/Player.cs/#L6" class="edit-link">Edit this page</a>
         </div>
 
 
@@ -1029,6 +780,7 @@ private float _Stamina</code></pre>
       </div>
     </main>
 
+    <div class="container-xxl search-results" id="search-results"></div>
 
     <footer class="border-top text-secondary">
       <div class="container-xxl">
