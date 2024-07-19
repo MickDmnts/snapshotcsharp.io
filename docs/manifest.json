@@ -1,0 +1,214 @@
+{
+  "source_base_path": "C:/Users/micha/Desktop/Repos/CMN6302_2024_SAE_Athens_Major/code/unityProject/development/SnapshotDevelopment",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProposedArchitecture.Common.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProposedArchitecture.Common.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProposedArchitecture.GlobalProperties.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProposedArchitecture.GlobalProperties.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProposedArchitecture.ISnapshot.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProposedArchitecture.ISnapshot.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProposedArchitecture.ISnapshotModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProposedArchitecture.ISnapshotModel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProposedArchitecture.Inventory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProposedArchitecture.Inventory.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProposedArchitecture.Player.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProposedArchitecture.Player.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProposedArchitecture.SInventory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProposedArchitecture.SInventory.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProposedArchitecture.SPlayer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProposedArchitecture.SPlayer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProposedArchitecture.SWeapon.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProposedArchitecture.SWeapon.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProposedArchitecture.SaveManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProposedArchitecture.SaveManager.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProposedArchitecture.Weapon.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProposedArchitecture.Weapon.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProposedArchitecture.WorldLoader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProposedArchitecture.WorldLoader.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProposedArchitecture.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProposedArchitecture.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Snapshot.SnapshotWrapper.SnapshotReturnCodes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Snapshot.SnapshotWrapper.SnapshotReturnCodes.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Snapshot.SnapshotWrapper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Snapshot.SnapshotWrapper.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Snapshot.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Snapshot.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/mnw.DummyInstanceCreator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/mnw.DummyInstanceCreator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/mnw.DummySaveInitiator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/mnw.DummySaveInitiator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/mnw.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/mnw.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html"
+        },
+        ".json": {
+          "relative_path": "api/toc.json"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
