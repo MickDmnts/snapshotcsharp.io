@@ -163,36 +163,6 @@
       "version": ""
     },
     {
-      "type": "ManagedReference",
-      "source_relative_path": "api/mnw.DummyInstanceCreator.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/mnw.DummyInstanceCreator.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/mnw.DummySaveInitiator.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/mnw.DummySaveInitiator.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/mnw.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/mnw.html"
-        }
-      },
-      "version": ""
-    },
-    {
       "type": "Toc",
       "source_relative_path": "api/toc.yml",
       "output": {
